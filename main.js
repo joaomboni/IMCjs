@@ -37,9 +37,9 @@ function somar(){
         msg.innerHTML= `Seu IMC é ${imc.toFixed(2)}, Você está SAUDAVEL!!`;
     }else if(imc >= 25 && imc <= 29.99){
         msg.innerHTML = `Seu IMC é ${imc.toFixed(2)}, Você está com SOBREPESO!!`;
-    }else if(imc >= 30 & imc <= 34.99){
+    }else if(imc >= 30 && imc <= 34.99){
         msg.innerHTML = `Seu IMC é ${imc.toFixed(2)}, Você está com OBESIDADE GRAU 1!!`;
-    }else if(imc >= 35 & imc <= 39.99){
+    }else if(imc >= 35 && imc <= 39.99){
         msg.innerHTML = `Seu IMC é ${imc.toFixed(2)},Você está com OBESIDADE GRAU 2 (SEVERA)!!`;
     }else{
         msg.innerHTML = `Seu IMC é ${imc.toFixed(2)},Você está com OBESIDADE GRAU 3 (MORBIDA)!!`
