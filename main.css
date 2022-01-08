@@ -1,0 +1,26 @@
+body{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.884);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+    
+}
+.parf1{
+    text-indent: 20px;
+    border-top: solid;
+}
+.parf2{
+    text-indent: 20px;
+}
+.calc{
+    text-align: center;
+    border-bottom: solid;
+}
+
+.img{
+    margin-left: 130px;
+}

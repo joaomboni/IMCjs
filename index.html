@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style/main.css" rel ="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <h1>Calculo do IMC</h1>
+    <div class="parf1">
+        <p>
+            O <span id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)"><strong><em>IMC</em></strong></span>,
+            é uma medida universal adotada pela <span id="mousemove" onmouseover="trocaroms(this)" onmouseout="voltaroms(this)"><strong>OMS</strong></span>
+            para identificar dados preditivos de saúde por 
+            meio da classificação do peso do indivíduo em relação à sua altura.
+        </p>
+        <p>
+            Esse método é bastante prático. 
+            Por isso, é comumente utilizado para verificar se cada pessoa está dentro, 
+            acima ou abaixo do peso ideal e para conhecer as possibilidades de doenças 
+            que se possa estar propensa a desenvolver.
+        </p>
+    </div>
+    <span class="img">
+        <img src="images/diet.jpg"
+        alt="Imagem"
+        width="800"
+        height="400">
+    
+    </span>
+    <h3>Como é feito o cálculo do IMC?</h3>
+    <div class="parf2">
+        <p>
+            A utilização dessa técnica para conhecer os perigos que cada indivíduo 
+            pode estar sujeito,em virtude do seu peso, 
+            tornou-se bastante comum entre as comunidades científicas.
+        </p>
+        <p>
+            O cálculo é bastante simples, 
+            necessitando apenas estabelecer a 
+            relação entre a massa (kg) e altura (m) do indivíduo.
+        </p>
+        <p>
+            Podemos ver como calcular o Peso Ideal na equação abaixo:
+        </p>
+        <p>
+            Índice de Massa Corporal – IMC = Massa (kg) ÷ Altura (m)².
+        </p>
+        <p>
+            Dessa forma, uma pessoa que meça 1,65 m e pese 60 kg, 
+            por exemplo, deve fazer o cálculo da seguinte forma:</br>
+            <div class="calc">60 ÷ (1,65 x 1,65) = 60 ÷ 2,7225 = 22,038</div>
+        </p>
+        <p>
+            Uma vez realizado o cálculo do IMC, 
+            podemos classificar os dados de 
+            acordo com os índices preestabelecidos pela OMS:
+        </p>
+    </div>
+        <p>
+            <ul>
+                <li>Menor que 18,5 = abaixo do peso.</li>
+                <li>Entre 18,5 e 24,9 = peso normal.</li>
+                <li>Entre 35 e 29,9 = sobrepeso.</li>
+                <li>Entre 30 e 34,99 = obesidade grau 1.</li>
+                <li>Entre 35 e 39,99 = obesidade grau 2(Severa).</li>
+                <li>Acima de 40 = obesidade gradu 3(Mórbida).</li>
+            </ul>
+        </p>
+        <p>
+            Agora que você sabe como funciona o cálculo
+            <button type="button" onclick="testbutton()">Descubra seu IMC</button>
+            <!--<a href="ex00.html"><strong>Descubra seu IMC.</strong></a>-->
+        </p>
+    
+</body>
+
+</html>
